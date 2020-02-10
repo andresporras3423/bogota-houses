@@ -1,0 +1,96 @@
+body{
+  background-image: url(bogota.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.nav-links{
+  background-color:rgb(231, 93, 93);
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+}
+
+.nav-links > div {
+  align-items: center;
+}
+
+.icon-section{
+  justify-content: flex-start;
+}
+
+.links-section{
+  justify-content: flex-end;
+}
+
+.links-section > div{
+  margin-right: 30px;
+}
+
+.navbar-icons{
+  width: 20px;
+  height: 20px;
+}
+
+.mini-house{
+  width: 30px;
+  height: 30px;
+}
+.site-name{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.break-small {
+  flex-basis: 0%; 
+  height: 0;
+}
+
+
+
+.flex-1{
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
+}
+
+.flex-3{
+  flex: 3;
+}
+
+.flex-4{
+  flex: 4;
+}
+
+.flex-5{
+  flex: 5;
+}
+
+.flex-6{
+  flex: 6;
+}
+
+.flex-7{
+  flex: 7;
+}
+
+.flex-8{
+  flex: 8;
+}
+
+.flex-9{
+  flex: 9;
+}
+
+.flex-10{
+  flex: 10;
+}
+
+.flex-11{
+  flex: 11;
+}
+
+.flex-12{
+  flex: 12;
+}
