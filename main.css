@@ -245,6 +245,10 @@ body{
     grid-template-rows: 2fr 2fr 1fr 1fr;
     grid-gap: 25px;
   }
+
+  .links-section > div > span {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
