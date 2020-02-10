@@ -1,10 +1,10 @@
 body{
-  background-image: url(bogota.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  
 }
 
 .nav-links{
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color:rgb(231, 93, 93);
   font-family: 'Noto Sans KR', sans-serif;
   color: white;
@@ -32,12 +32,12 @@ body{
 }
 
 .mini-house{
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
 }
 .site-name{
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .break-small {
@@ -45,6 +45,83 @@ body{
   height: 0;
 }
 
+.main-content{
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  background-image: url(banner-bogota.jpg);
+  background-size: 1500px 720px;
+  height: 550px;
+  max-width: 1500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+}
+
+.search-section{
+  margin-top: 100px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.search-section > * {
+  flex-basis: 100%;
+}
+
+.search-section > h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.form-grid{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: repeat(2, 50px);
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(255,255,255, 0.5);
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.form-grid > button{
+  color: white;
+  background-color: rgb(231, 93, 93);
+  border: 0;
+}
+
+.tutorial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial > button {
+  background-color: rgb(127,127,127,0.8);
+}
+
+.grid-footer{
+  padding: 50px 100px 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 100px;
+}
+
+.grid-footer > div {
+  align-items: center;
+  justify-content: center;
+  color: rgb(127,127,127);
+}
+
+.grid-footer > div > p {
+  text-align: justify;
+}
+
+.footer-icon{
+  width: 35px;
+  height: 35px;
+}
 
 
 .flex-1{
@@ -93,4 +170,24 @@ body{
 
 .flex-12{
   flex: 12;
+}
+
+.grid-1-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.grid-1-2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.grid-2-1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.grid-2-2 {
+  grid-row: 2;
+  grid-column: 2;
 }
