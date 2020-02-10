@@ -261,14 +261,23 @@ body{
     grid-template-rows: repeat(3, 50px);
   }
 
+  .form-grid > input {
+    margin-bottom: 5px;
+  }
+
   .form-grid > button{
     grid-row: 3;
     grid-column: 1;
+    margin-top: 5px;
   }
 
   .icon-section,
   .links-section{
     justify-content: center;
+  }
+
+  .links-section{
+    margin-bottom: 10px;
   }
 
   .mini-house,
