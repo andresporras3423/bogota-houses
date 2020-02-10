@@ -8,6 +8,7 @@ body{
   background-color:rgb(231, 93, 93);
   font-family: 'Noto Sans KR', sans-serif;
   color: white;
+  flex-wrap: wrap;
 }
 
 .nav-links > div {
@@ -34,10 +35,12 @@ body{
 .mini-house{
   width: 35px;
   height: 35px;
+  flex: 1;
 }
 .site-name{
   font-weight: 700;
   font-size: 35px;
+  flex:5;
 }
 
 .break-small {
@@ -84,10 +87,24 @@ body{
   border-radius: 25px;
 }
 
+.form-grid > label {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.form-grid > input {
+  grid-row: 2;
+  grid-column: 1;
+}
+
 .form-grid > button{
   color: white;
   background-color: rgb(231, 93, 93);
   border: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  grid-row: 2;
+  grid-column: 2;
 }
 
 .tutorial{
@@ -98,24 +115,27 @@ body{
 
 .tutorial > button {
   background-color: rgb(127,127,127,0.8);
+  border-radius: 4px;
 }
 
 .grid-footer{
   padding: 50px 100px 50px 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 100px;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 50px;
 }
 
 .grid-footer > div {
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   color: rgb(127,127,127);
 }
 
 .grid-footer > div > p {
   text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .footer-icon{
@@ -123,6 +143,33 @@ body{
   height: 35px;
 }
 
+.social-icons > i {
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social-icons > i:hover {
+  color: rgb(73, 73, 182);
+  cursor: pointer;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links > li:not(:last-of-type) {
+  border-right: 1px solid lightgrey;
+}
+.footer-links > li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+  padding-left: 0;
+}
 
 .flex-1{
   flex: 1;
@@ -190,4 +237,40 @@ body{
 .grid-2-2 {
   grid-row: 2;
   grid-column: 2;
+}
+
+@media only screen and (max-width: 1024px) {
+  .grid-footer{
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    grid-gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .break-small {
+    flex-basis: 100%;
+  }
+
+  .form-grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 50px);
+  }
+
+  .form-grid > button{
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .icon-section,
+  .links-section{
+    justify-content: center;
+  }
+
+  .mini-house,
+  .site-name{
+    flex: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
