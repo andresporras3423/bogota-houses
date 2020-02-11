@@ -50,20 +50,48 @@
       </div>      
     </nav>
   </header>
-  <main class="main-content">
-    <section class="d-flex flex-column search-section">
-      <h3 class="text-center">Bogotá waits for you, what are you waiting for?</h3>
-      <div>
-        <form class="form-grid">
-          <label>Find your property:</label>
-          <input  type="text">
-          <button>Search</button>
-        </form>
-      </div>
-      <div class="tutorial">
-        <button>how it works</button>
-      </div>
-      
+  <main class="main-list">
+    <aside class="aside-section">
+      <h3>Advanced search</h3>
+      <form class="form-filters d-flex flex-column">
+        <label class="black-color">Price (Min-Max): </label>
+        <div class="d-flex flex-row price-range">
+          <input class="form-control" type="number" placeholder="Min-price">
+          <input class="form-control" type="number" placeholder="Max-price">
+        </div>
+        <label class="black-color">Size (Min-Max): </label>
+        <div class="d-flex flex-row price-range">
+          <input class="form-control" type="number" placeholder="Min-size-mts">
+          <input class="form-control" type="number" placeholder="Max-size-mts">
+        </div>
+        <label class="black-color">Property type: </label>
+        <div class="radio-options">
+          <input type="radio" value="Apartment" name="type" class="form-control"><label>Apartment</label>
+          <input type="radio" value="House" name="type" class="form-control"><label>House</label>
+          <input type="radio" value="Land" name="type" class="form-control"><label>Land</label>
+          <input type="radio" value="Commercial space" name="type" class="form-control"><label>Commercial space</label>
+        </div>
+        <select  class="form-control">
+          <option value="" disabled selected>Select a locality</option>
+          <option value="3">Chapinero</option> 
+          <option value="4">Barrios Unidos</option> 
+          <option value="5">Teusaquillo</option>
+          <option value="5">Usaquén</option>
+          <option value="5">Suba</option>
+        </select>
+        <select class="form-control">
+          <option value="" disabled selected>Select a neighborhood</option>
+          <option value="3">7 de agosto</option> 
+          <option value="4">La Candelaria</option> 
+          <option value="5">Las aguas</option>
+          <option value="5">Galerías</option>
+          <option value="5">San Martín</option>
+        </select>
+        <button class="btn btn-primary btn-block"><i class="fa fa-search"></i>  Filter</button>
+      </form>
+    </aside>
+    <section>
+
     </section>
   </main>
   <footer class="grid-footer">
