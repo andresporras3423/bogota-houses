@@ -173,10 +173,13 @@
 }
 
 .house-image > div > span {
-  color: white;
   background-color: rgb(221, 111, 7, 0.8);
   padding: 5px;
   margin: 5px;
+}
+
+.house-image > div > span > a{
+  color: white;
 }
 
 .house-image > div > div {
@@ -224,6 +227,47 @@
 
 .house-4 {
   background-image: url('https://houses.directory/uploads/images/thumbs/1570804464vbhlh-187938296.JPEG');
+}
+
+.main-house{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 25px;
+}
+
+.sale-house{
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-image: url("https://houses.directory/uploads/images/1570804443vhq7x-187938251.JPEG");
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  z-index: -1;
+  position: relative;
+}
+
+.sale-house > * {
+  position: absolute;
+  background-color: rgb(0,0,0,0.4);
+  color: white;
+  padding: 10px;
+  width: 70px;
+  height: 40px;
+}
+
+.current-img {
+  top: calc(100% - 40px);
+  left: calc(50% - 35px);
+}
+
+.arrow1{
+  top: calc(50% - 20px);
+  left: 0%;
+}
+
+.arrow2{
+  top: calc(50% - 20px);
+  left: calc(100% - 70px);
 }
 
 .grid-footer{
@@ -294,9 +338,6 @@
   margin-right: 20px;
 }
 
-.black-color{
-  font-weight: 700;
-}
 
 .flex-1{
   flex: 1;
@@ -364,6 +405,11 @@
 .grid-2-2 {
   grid-row: 2;
   grid-column: 2;
+}
+
+.grid-3-1 {
+  grid-row: 3;
+  grid-column: 1;
 }
 
 @media only screen and (max-width: 1024px) {
