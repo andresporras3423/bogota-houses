@@ -86,6 +86,7 @@ li {
   font-weight: 700;
   font-size: 35px;
   flex: 5;
+  cursor: pointer;
 }
 
 .break-small {
@@ -373,6 +374,11 @@ li {
 .similar-properties,
 .detailed-info {
   margin: 25px;
+}
+
+.similar-properties > h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .contact-salesman > form {
