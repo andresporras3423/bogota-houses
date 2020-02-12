@@ -331,9 +331,10 @@
   height: 24px;
 }
 
-.contact-salesman{
-  margin-left: 25px;
-  margin-right: 25px;
+.contact-salesman,
+.similar-properties,
+.detailed-info{
+  margin: 25px;
 }
 
 .contact-salesman > form {
@@ -341,6 +342,14 @@
   background-color: rgb(234, 240, 245);
   border: 1px solid rgb(197, 197, 197);
   border-radius: 10px;
+}
+
+.similar-properties > div {
+  padding: 10px;
+  background-color: rgb(221, 111, 7, 0.4);
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(221, 111, 7, 0.6);
 }
 
 .grid-footer{
@@ -379,6 +388,10 @@
 .social-icons > i:hover {
   color: rgb(73, 73, 182);
   cursor: pointer;
+}
+
+.show-mobile{
+  display: none;
 }
 
 .footer-links {
@@ -528,6 +541,31 @@
     display: initial;
   }
 
+  .main-house {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailed-info {
+    order: 1;
+  }
+  
+  .contact-salesman {
+    order: 2;
+  }
+
+  .similar-properties {
+    order: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+
+  .similar-properties > h4 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -575,5 +613,19 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
     grid-gap:50px;
+  }
+
+  .similar-properties {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+  }
+
+  .similar-properties > h4 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .show-mobile{
+    display: initial;
   }
 }
