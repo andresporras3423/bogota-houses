@@ -1,3 +1,7 @@
+img, i, svg, li {
+  cursor: pointer;
+}
+
 .nav-links{
   padding-top: 5px;
   padding-bottom: 5px;
@@ -17,6 +21,11 @@
 
 .links-section{
   justify-content: flex-end;
+}
+
+.links-section > div:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .links-section > div{
@@ -165,6 +174,11 @@
   align-items: flex-end;
 }
 
+.similar-properties > div > h6:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .house-image > div {
   justify-content: space-between;
   display: flex;
@@ -214,18 +228,22 @@
 }
 
 .house-1 {
+  cursor: pointer;
   background-image: url('https://houses.directory/uploads/images/thumbs/15713903246qusg-dsc02490.JPG');
 }
 
 .house-2 {
+  cursor: pointer;
   background-image: url('https://houses.directory/uploads/images/thumbs/1570630368zysdk-lasaline-building.jpg');
 }
 
 .house-3 {
+  cursor: pointer;
   background-image: url('https://houses.directory/uploads/images/thumbs/1570629113wp9ry-import-from-samsung-071019-154.jpg');
 }
 
 .house-4 {
+  cursor: pointer;
   background-image: url('https://houses.directory/uploads/images/thumbs/1570804464vbhlh-187938296.JPEG');
 }
 
@@ -238,6 +256,7 @@
 .sale-house{
   background-size: 100% auto;
   background-repeat: no-repeat;
+  cursor: pointer;
   background-image: url("https://houses.directory/uploads/images/1570804443vhq7x-187938251.JPEG");
   width: 100%;
   height: 0;
@@ -305,14 +324,17 @@
 }
 
 .house-img1{
+  cursor: pointer;
   background-image: url("https://houses.directory/uploads/images/1570804443vhq7x-187938251.JPEG");
 }
 
 .house-img2{
+  cursor: pointer;
   background-image: url("https://houses.directory/uploads/images/1570804464vbhlh-187938296.JPEG");
 }
 
 .house-img3{
+  cursor: pointer;
   background-image: url("https://houses.directory/uploads/images/1570804478i6ywi-187938407.JPEG");
 }
 
