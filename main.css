@@ -83,7 +83,7 @@ img, i, svg, li {
 
 .form-grid{
   display: grid;
-  grid-template-columns: 5fr 1fr;
+  grid-template-columns: 5fr 100px;
   grid-template-rows: repeat(2, 50px);
   font-size: 24px;
   font-weight: 700;
