@@ -36,7 +36,7 @@ Eight Microverse Project by Oscar Russi
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/andresporras3423/newsweek-clone/787d0fef8656fd19b61e9833a2f285179e5c53d4/index.html)
+[Live Demo](http://andresporres.000webhostapp.com/bogota-houses/main.html)
 
 ## Authors
 
