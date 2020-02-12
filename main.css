@@ -56,7 +56,7 @@ img, i, svg, li {
 .main-content{
   display: grid;
   grid-template-columns: 2fr 5fr 2fr;
-  background-image: url(banner-bogota.jpg);
+  background-image: url(images/banner-bogota.jpg);
   background-size: 1500px 720px;
   height: 550px;
   max-width: 1500px;
