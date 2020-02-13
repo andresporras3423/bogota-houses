@@ -5,11 +5,11 @@ li {
   cursor: pointer;
 }
 
-.dis-flex{
+.dis-flex {
   display: flex;
 }
 
-.flex-col{
+.flex-col {
   flex-direction: column;
 }
 
@@ -231,7 +231,16 @@ li {
   grid-row: 1;
 }
 
-.similar-properties > div > h2:hover {
+.similar-properties > h2 {
+  margin: 10px;
+}
+
+.similar-properties > h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.similar-properties > div > h6:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -384,15 +393,6 @@ li {
 .similar-properties,
 .detailed-info {
   margin: 25px;
-}
-
-.similar-properties > h2{
-  margin: 10px;
-}
-
-.similar-properties > h2:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 .contact-salesman > form {
