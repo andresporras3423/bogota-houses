@@ -38,6 +38,10 @@ Eight Microverse Project by Oscar Russi
 
 [Live Demo](http://andresporres.000webhostapp.com/bogota-houses/main.html)
 
+## Project Presentation (Video)
+
+[Project Presentation](https://www.loom.com/share/e7d6fd61f9c646b69af27af1b3808a0a)
+
 ## Authors
 
 **Oscar Russi**
