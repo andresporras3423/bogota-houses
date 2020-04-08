@@ -1,0 +1,676 @@
+img,
+i,
+svg,
+li {
+  cursor: pointer;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.nav-links {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(231, 93, 93);
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.nav-links > div {
+  align-items: center;
+}
+
+.icon-section {
+  justify-content: flex-start;
+}
+
+.links-section {
+  justify-content: flex-end;
+}
+
+.links-section > div {
+  margin-right: 30px;
+}
+
+.house-image > div {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.house-images > div {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  z-index: -1;
+}
+
+.similar-properties > div {
+  padding: 10px;
+  background-color: rgb(221, 111, 7, 0.4);
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(221, 111, 7, 0.6);
+}
+
+.grid-footer > article {
+  align-items: center;
+  color: rgb(127, 127, 127);
+}
+
+.house-image > div > div {
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.links-section > div:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbar-icons {
+  width: 20px;
+  height: 20px;
+}
+
+.mini-house {
+  width: 35px;
+  height: 35px;
+  flex: 1;
+}
+
+.site-name {
+  font-weight: 700;
+  font-size: 35px;
+  flex: 5;
+  cursor: pointer;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.break-small {
+  flex-basis: 0%;
+  height: 0;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 2fr 5fr 2fr;
+  background-image: url(images/banner-bogota.jpg);
+  background-size: 1500px 720px;
+  height: 550px;
+  max-width: 1500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: auto;
+}
+
+.search-section {
+  margin-top: 100px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.search-section > * {
+  flex-basis: 100%;
+}
+
+.search-section > h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 5fr 100px;
+  grid-template-rows: repeat(2, 50px);
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 50px;
+  border-radius: 25px;
+}
+
+.form-grid > label {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.form-grid > input {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.form-grid > a {
+  color: white;
+  background-color: rgb(231, 93, 93);
+  border: 0;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  grid-row: 2;
+  grid-column: 2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.tutorial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial > button {
+  background-color: rgb(127, 127, 127, 0.8);
+  border-radius: 4px;
+}
+
+.form-filters {
+  flex-direction: column;
+}
+
+.form-filters > * {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hide-big-screen {
+  display: none;
+}
+
+.radio-options {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.radio-options > input {
+  height: 20px;
+}
+
+.section-results {
+  padding: 25px;
+}
+
+.section-results > h2 {
+  margin-bottom: 50px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.house-image {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  z-index: -1;
+  align-items: flex-end;
+}
+
+.house-info > h6 {
+  font-weight: 700;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.similar-properties > h2 {
+  margin: 10px;
+}
+
+.similar-properties > h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.similar-properties > div > h6:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.house-image > div > span {
+  background-color: rgb(221, 111, 7, 0.8);
+  padding: 5px;
+  margin: 5px;
+}
+
+.house-image > div > span > a {
+  color: white;
+}
+
+.photo-icon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 2px;
+}
+
+.house-info {
+  font-size: 12px;
+  background-color: rgb(231, 232, 237);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 25px 25px;
+  grid-gap: 10px;
+  border: 1px solid rgb(240, 237, 239);
+  justify-items: center;
+  align-items: center;
+}
+
+.house-1 {
+  cursor: pointer;
+  background-image: url('https://houses.directory/uploads/images/thumbs/15713903246qusg-dsc02490.JPG');
+}
+
+.house-2 {
+  cursor: pointer;
+  background-image: url('https://houses.directory/uploads/images/thumbs/1570630368zysdk-lasaline-building.jpg');
+}
+
+.house-3 {
+  cursor: pointer;
+  background-image: url('https://houses.directory/uploads/images/thumbs/1570629113wp9ry-import-from-samsung-071019-154.jpg');
+}
+
+.house-4 {
+  cursor: pointer;
+  background-image: url('https://houses.directory/uploads/images/thumbs/1570804464vbhlh-187938296.JPEG');
+}
+
+.main-house {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 25px;
+}
+
+.sale-house {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-image: url("https://houses.directory/uploads/images/1570804443vhq7x-187938251.JPEG");
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  z-index: -1;
+  position: relative;
+}
+
+.sale-house > * {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.4);
+  color: white;
+  padding: 10px;
+}
+
+.current-img {
+  top: calc(100% - 40px);
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 40px;
+}
+
+.arrow1 {
+  font-size: 30px;
+  top: calc(50% - 30px);
+  left: 0%;
+  width: 40px;
+  height: 60px;
+}
+
+.arrow2 {
+  font-size: 30px;
+  top: calc(50% - 30px);
+  left: calc(100% - 40px);
+  width: 40px;
+  height: 60px;
+}
+
+.arrow1 > i,
+.arrow2 > i {
+  margin: auto;
+}
+
+.house-images {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 1fr 30px;
+  grid-template-rows: 1fr;
+  grid-gap: 5px;
+}
+
+.house-images > div:nth-of-type(1) {
+  border: 1px solid blue;
+}
+
+.house-img1 {
+  cursor: pointer;
+  background-image: url("https://houses.directory/uploads/images/1570804443vhq7x-187938251.JPEG");
+}
+
+.house-img2 {
+  cursor: pointer;
+  background-image: url("https://houses.directory/uploads/images/1570804464vbhlh-187938296.JPEG");
+}
+
+.house-img3 {
+  cursor: pointer;
+  background-image: url("https://houses.directory/uploads/images/1570804478i6ywi-187938407.JPEG");
+}
+
+.change-image {
+  font-size: 30px;
+  background-color: rgb(231, 232, 237, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgvertical {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-salesman,
+.similar-properties,
+.detailed-info {
+  margin: 25px;
+}
+
+.contact-salesman > form {
+  padding: 10px;
+  background-color: rgb(234, 240, 245);
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 10px;
+}
+
+.grid-footer {
+  padding: 50px 100px 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-gap: 50px;
+  background-color: rgb(231, 93, 93, 0.1);
+}
+
+.grid-footer > article > p {
+  text-align: justify;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.social-icons > i {
+  font-size: 20px;
+  color: rgb(102, 102, 102);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social-icons > i:hover {
+  color: rgb(73, 73, 182);
+  cursor: pointer;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-links > li {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+  padding-left: 0;
+}
+
+.footer-links > li:not(:last-of-type) {
+  border-right: 1px solid lightgrey;
+}
+
+.aside-section {
+  border: 1px solid rgb(231, 232, 237, 0.5);
+  background-color: rgb(231, 232, 237, 0.1);
+  padding: 25px;
+}
+
+.main-list {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 50px;
+}
+
+.price-range > input {
+  margin-right: 20px;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.flex-7 {
+  flex: 7;
+}
+
+.flex-8 {
+  flex: 8;
+}
+
+.flex-9 {
+  flex: 9;
+}
+
+.flex-10 {
+  flex: 10;
+}
+
+.flex-11 {
+  flex: 11;
+}
+
+.flex-12 {
+  flex: 12;
+}
+
+.grid-1-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.grid-1-2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.grid-2-1 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.grid-2-2 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.grid-3-1 {
+  grid-row: 3;
+  grid-column: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .grid-footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    grid-gap: 25px;
+  }
+
+  .links-section > div > span {
+    display: none;
+  }
+
+  .section-results {
+    order: 1;
+  }
+
+  .aside-section {
+    order: 2;
+  }
+
+  .main-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 50px;
+  }
+
+  .form-filters {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form-filters > *:nth-child(odd) {
+    flex-basis: 25%;
+  }
+
+  .form-filters > *:nth-child(even) {
+    flex-basis: 75%;
+  }
+
+  .hide-big-screen {
+    display: initial;
+  }
+
+  .main-house {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detailed-info {
+    order: 1;
+  }
+
+  .contact-salesman {
+    order: 2;
+  }
+
+  .similar-properties {
+    order: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+
+  .similar-properties > h2 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .break-small {
+    flex-basis: 100%;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 50px);
+  }
+
+  .form-grid > input {
+    margin-bottom: 5px;
+  }
+
+  .form-grid > a {
+    grid-row: 3;
+    grid-column: 1;
+    margin-top: 5px;
+  }
+
+  .icon-section,
+  .links-section {
+    justify-content: center;
+  }
+
+  .links-section {
+    margin-bottom: 10px;
+  }
+
+  .mini-house,
+  .site-name {
+    flex: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .form-filters > *:nth-child(odd),
+  .form-filters > *:nth-child(even) {
+    flex-basis: 100%;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+
+  .similar-properties {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+  }
+
+  .similar-properties > h2 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .show-mobile {
+    display: initial;
+  }
+}
