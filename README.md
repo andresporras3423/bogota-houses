@@ -2,6 +2,10 @@
 
 Eight Microverse Project by Oscar Russi
 
+## Usage
+
+This project simulates the visual design of Real Estate listing and agency websites
+
 ![screenshot](images/bogota-houses-screenshot.png)
 
 # What it does
@@ -41,10 +45,6 @@ https://github.com/andresporras3423/bogota-houses/issues/3
 ## Planned Features
 
 https://github.com/andresporras3423/bogota-houses/issues
-
-## Usage
-
-This project simulates the visual design of Real Estate listing and agency websites
 
 ## Live Demo
 
