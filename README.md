@@ -38,6 +38,10 @@ Eight Microverse Project by Oscar Russi
 
 https://github.com/andresporras3423/bogota-houses/issues/3
 
+## Planned Features
+
+https://github.com/andresporras3423/bogota-houses/issues
+
 ## Live Demo
 
 [Live Demo](http://andresporres.000webhostapp.com/bogota-houses/main.html)
