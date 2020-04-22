@@ -42,6 +42,10 @@ https://github.com/andresporras3423/bogota-houses/issues/3
 
 https://github.com/andresporras3423/bogota-houses/issues
 
+## Usage
+
+This project simulates the visual design of Real Estate listing and agency websites
+
 ## Live Demo
 
 [Live Demo](http://andresporres.000webhostapp.com/bogota-houses/main.html)
