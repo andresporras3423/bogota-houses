@@ -28,6 +28,8 @@ This project simulates the visual design of Real Estate listing and agency websi
 - responsive design for three different screen sizes (max 768, max 1024 and bigger screens)
 - using Noto Sans font (from google fonts)
 
+![screenshot](images/code-screenshot.png)
+
 ## Built With
 
 - HTML5
@@ -50,7 +52,9 @@ https://github.com/andresporras3423/bogota-houses/issues
 
 [Live Demo](http://andresporres.000webhostapp.com/bogota-houses/main.html)
 
-## Project Presentation (Video)
+## Project Presentation (VIDEO)
+
+[![Video Presentation](images/video-screenshot.png)](https://www.loom.com/share/e7d6fd61f9c646b69af27af1b3808a0a)
 
 [Project Presentation](https://www.loom.com/share/e7d6fd61f9c646b69af27af1b3808a0a)
 
