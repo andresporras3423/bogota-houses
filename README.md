@@ -1,42 +1,42 @@
 # BOGOTA HOUSES - capstone project
 
-Eight Microverse Project by Oscar Russi
+Eight Microverse Project by Oscar Russi.
 
 ## Usage
 
-This project simulates the visual design of Real Estate listing and agency websites
+This project simulates the visual design of Real Estate listing and agency websites.
 
 ![screenshot](images/bogota-houses-screenshot.png)
 
 # What it does
 
-- List of sale properties in Bogotá
-- main.html page contains a search form
-- the search form button redirects to properties.html, which shows a list of properties
-- each image of a property redirects to sale-house.html which contains detailed information about a property and also a form to contact the property salesman.
-- design partially based on https://www.behance.net/gallery/25563385/PatashuleKE
-- design partially based on https://houses.directory/ 
-- design partially based on https://m.fincaraiz.com.co/
+- List of sale properties in Bogotá.
+- main.html page contains a search form.
+- The search form button redirects to properties.html, which shows a list of properties.
+- Each image of a property redirects to sale-house.html which contains detailed information about a property and also a form to contact the property salesman.
+- Design partially based on https://www.behance.net/gallery/25563385/PatashuleKE.
+- Design partially based on https://houses.directory/.
+- Design partially based on https://m.fincaraiz.com.co/.
 
 # Features
 
-- created a total of three pages (main.html, properties.html, and sales-house.html)
-- using CSS Grid and flexbox for the layout of the three pages
-- using bootstrap for styling the forms elements
-- using font-awesome for some icons
-- using icons from flaticon
-- responsive design for three different screen sizes (max 768, max 1024 and bigger screens)
-- using Noto Sans font (from google fonts)
+- Created a total of three pages (main.html, properties.html, and sales-house.html).
+- Using CSS Grid and flexbox for the layout of the three pages.
+- Using Bootstrap for styling the forms elements.
+- Using font-awesome for some icons.
+- Using icons from flaticon.
+- Responsive design for three different screen sizes (max 768, max 1024 and bigger screens).
+- Using Noto Sans font (from google fonts).
 
 ![screenshot](images/code-screenshot.png)
 
 ## Built With
 
-- HTML5
-- CSS3
-- Bootstrap
-- font-awesome
-- google fonts
+- HTML5.
+- CSS3.
+- Bootstrap.
+- Font-awesome.
+- Google fonts.
 
 #### and deployed to GitHub
 
